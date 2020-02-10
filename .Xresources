@@ -1,0 +1,110 @@
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+Xft.lcdfilter: lcddefault
+Xft.autohint: false
+
+URxvt.intensityStyles:  false
+
+URxvt*font: xft:dina:size=8:antialias=false
+URxvt*italic: xft:dina-medium:size=8:antialias=false
+URxvt*boldFont: xft:dina-bold:size=8:antialias=false
+! URxvt.font:   xft: Iosevka:size=9:antialias=false
+! URxvt.Font:   xft: Iosevka:Type:light:Italic:size=8:antialias=false
+! URxvt*font:   xft: terminus:size=9:antialias=false
+
+!URxvt.letterSpace: -2
+! URxvt.font: xft:Inconsolata:size=9:hintstyle=hintfull, -xos4-terminesspowerline-medium-r-normal--12-120-72-72-c-60-iso10646-1
+! URxvt.boldFont: xft:Inconsolata:size=9:hintstyle=hintfull, -xos4-terminesspowerline-medium-r-normal--12-120-72-72-c-60-iso10646-1
+! URxvt.italicFont: xft:Inconsolata:size=9:hintstyle=hintfull, -xos4-terminesspowerline-medium-r-normal--12-120-72-72-c-60-iso10646-1
+! URxvt.boldItalicFont: xft:Inconsolata:size=9:hintstyle=hintfull, -xos4-terminesspowerline-medium-r-normal--12-120-72-72-c-60-iso10646-1
+
+!URxvt.letterSpace: -1
+! URxvt*font: xft:inconsolata for Powerline:size=9
+! URxvt*boldFont: xft:inconsolata for Powerline:size=9
+! URxvt*italicFont: xft:inconsolata for Powerline:size=9
+! URxvt*bolditalicFont: xft:inconsolata for Powerline:size=9
+
+! URxvt*font: xft:terminus:hinting=true:pixelsize=12:antialias=false, -xos4-terminesspowerline-medium-r-normal--12-120-72-72-c-60-iso10646-1
+! URxvt*boldFont: xft:terminus:style=bold:hinting=true:pixelsize=12:antialias=false, -xos4-terminesspowerline-medium-r-normal--12-120-72-72-c-60-iso10646-1
+! URxvt*italicFont: xft:terminus:style=italic:hinting=true:pixelsize=12:antialias=false, -xos4-terminesspowerline-medium-r-normal--12-120-72-72-c-60-iso10646-1
+! URxvt*boldItalicFont: xft:terminus:style=bolditalic:hinting=true:pixelsize=12:antialias=false, -xos4-terminesspowerline-medium-r-normal--12-120-72-72-c-60-iso10646-1
+
+!! URxvt Appearance
+! URxvt.font: -*-canele-*
+! URxvt.boldFont: -*-canele-*
+! URxvt.italicFont: -*-canele-*
+! URxvt.boldItalicfont: -*-canele-*
+
+URxvt.imLocale: es_ES.UTF-8
+URxvt.saveLines:        2000
+
+URxvt*scrollTtyOutput:    false
+URxvt*scrollWithBuffer:   true
+URxvt*scrollTtyKeypress:  true
+URxvt.scrollBar:          false
+URxvt.termName:           xterm-256color
+URxvt.internalBorder:     20
+! URxvt.borderColor:        #383838
+
+URxvt.cursorBlink:        false
+URxvt.cursorUnderline:    true
+URxvt*skipBuiltinGlyphs:    true
+URxvt.colorUL: #C1B5B5
+! URxvt.colorBD: #0E5F6B
+URxvt.colorBD: #C1B5B5
+URxvt.colorIT: #7C7373
+URxvt.perl-ext-common: font-size
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.keysym.C-Up:     font-size:increase
+URxvt.keysym.C-Down:   font-size:decrease
+URxvt.keysym.C-S-Up:   font-size:incglobal
+URxvt.keysym.C-S-Down: font-size:decglobal
+URxvt.keysym.C-equal:  font-size:reset
+URxvt.keysym.C-slash:  font-size:show
+
+URxvt.geometry:	65x17
+
+*.foreground:   #ffffff
+*.background:   #0C222A
+*.cursorColor:  #ffffff
+
+!True Transparency               
+! urxvt*depth:             32
+! urxvt*background: rgba:1111/1111/1111/bbbb
+
+ 
+! black
+*.color0:       #C1B5B5
+*.color8:       #ffffff
+
+! red
+*.color1:       #C1B5B5
+*.color9:       #C1B5B5
+
+! green
+*.color2:       #ffffff
+*.color10:      #C1B5B5
+
+! yellow
+*.color3:       #C1B5B5
+*.color11:      #C1B5B5
+
+! blue
+*.color4:       #1C2F39
+*.color12:      #C1B5B5
+
+! magenta
+*.color5:       #C1B5B5
+*.color13:      #C1B5B5
+
+! cyan
+*.color6:       #0C222A
+*.color14:      #C1B5B5
+
+! white
+*.color7:       #C1B5B5
+*.color15:      #ffffff

@@ -1,0 +1,52 @@
+# Files
+mpd_music_dir = ~/Musica
+# lyrics_directory  = ~/etc/ncmpcpp/lyrics
+ncmpcpp_directory  = ~/.ncmpcpp
+mpd_host = "localhost"
+mpd_port = "6600"
+mpd_connection_timeout = "5"
+mpd_crossfade_time = "5"
+
+# visualizador
+visualizer_in_stereo = "yes"
+visualizer_sync_interval = "128"
+visualizer_output_name = "fifo"
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_type = "spectrum" (spectrum/onda)
+# visualizer_sample_multiplier = 0.20
+visualizer_color = "black"
+# visualizer_look = ●▮
+
+playlist_display_mode = columns
+progressbar_look = "▂▂ "  # ━━─
+#progressbar_look = "─╼ "
+header_visibility = no
+statusbar_visibility = no
+titles_visibility = no
+colors_enabled = yes
+main_window_color = 15
+progressbar_color = black
+progressbar_elapsed_color = 15
+seek_time = 5
+volume_change_step = 5
+message_delay_time = 1
+
+#     ---
+#   Layouts
+#     ---
+
+current_item_prefix = "$(16_black)"
+current_item_suffix = "$/r$(end)"
+
+now_playing_prefix = "  ​"
+now_playing_suffix = "$(15)x $9"
+# now_playing_suffix = "$(15)● $9"
+# now_playing_suffix = "$(15)♬ $9"
+# now_playing_suffix = "$(15)* $9"
+
+song_status_format = $/b{%t}|{%f}
+song_list_format = "%a  -  %t$R$(end) "
+song_library_format = $/b{{%a - %t} (%b)}|{%f}
+song_columns_list_format = "(10)[08]{ar} (0)[16]{t}"
+
+execute_on_song_change = "~/.ncmpcpp/popup.sh"
